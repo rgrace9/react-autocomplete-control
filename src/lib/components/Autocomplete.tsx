@@ -1,10 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import '../styles/main.scss';
 
-const Autocomplete = props => {
+const Autocomplete = () => {
   return (
-    <div>
-      <p>Autocomplete</p>
+    <div className='autocomplete'>
+      yo
     </div>
   );
 };
